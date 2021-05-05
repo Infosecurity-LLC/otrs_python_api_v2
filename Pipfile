@@ -1,0 +1,12 @@
+[[source]]
+url = ""
+verify_ssl = false
+name = 's_pypi'
+
+[dev-packages]
+
+[packages]
+socutils = {version= "==1.5.9", index="s_pypi"}
+
+[requires]
+python_version = "3.6"
